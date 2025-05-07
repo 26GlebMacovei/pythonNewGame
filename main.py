@@ -109,6 +109,7 @@ class Game (pg.sprite.Sprite):
                     self.player.jump()
 
     def draw(self):
+
         # Game Loop - draw
         self.screen.fill(WHITE)
         self.all_sprites.draw(self.screen)
